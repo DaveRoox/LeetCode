@@ -15,7 +15,7 @@ return [<b>0</b>, <b>1</b>].
 </pre>
 </p>
 
-<a href="https://github.com/DaveRoox/LeetCode/blob/master/TwoSum.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
+<b><a href="https://github.com/DaveRoox/LeetCode/blob/master/TwoSum.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a></b><br>
 
 <b>************************************************************************</b>
 
@@ -29,7 +29,7 @@ return [<b>0</b>, <b>1</b>].
 <b>Input:</b> (2 -> 4 -> 3) + (5 -> 6 -> 4)<br />
 <b>Output:</b> 7 -> 0 -> 8</p></p>
 
-<a href="https://github.com/DaveRoox/LeetCode/blob/master/AddTwoNumbers.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
+<b><a href="https://github.com/DaveRoox/LeetCode/blob/master/AddTwoNumbers.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a></b><br>
 
 <b>************************************************************************</b>
 
@@ -40,7 +40,7 @@ return [<b>0</b>, <b>1</b>].
 <p><b>Note:</b><br>
 You may assume k is always valid, 1 &le; k &le; BST's total elements.</p>
 
-<a href="https://github.com/DaveRoox/LeetCode/blob/master/KthSmallestElementInABST.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
+<b><a href="https://github.com/DaveRoox/LeetCode/blob/master/KthSmallestElementInABST.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a></b><br>
 
 <b>************************************************************************</b>
 
@@ -69,7 +69,7 @@ In this case, the 1st <code>1</code> in friend's guess is a bull, the 2nd or 3rd
 
 <p>You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.</p>
 
-<a href="https://github.com/DaveRoox/LeetCode/blob/master/BullsAndCows.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
+<b><a href="https://github.com/DaveRoox/LeetCode/blob/master/BullsAndCows.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a></b><br>
 
 <b>************************************************************************</b>
 
@@ -100,4 +100,4 @@ In this case, the 1st <code>1</code> in friend's guess is a bull, the 2nd or 3rd
 </pre>
 </p></p>
 
-<a href="https://github.com/DaveRoox/LeetCode/blob/master/NumberComplement.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
+<b><a href="https://github.com/DaveRoox/LeetCode/blob/master/NumberComplement.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a></b><br>
