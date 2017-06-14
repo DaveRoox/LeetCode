@@ -15,7 +15,7 @@ return [<b>0</b>, <b>1</b>].
 </pre>
 </p>
 
-<a href="https://github.com/DaveRoox/LeetCode/blob/master/TwoSum.cpp">Solution</a><br>
+<a href="https://github.com/DaveRoox/LeetCode/blob/master/TwoSum.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
 
 <b>************************************************************************</b>
 
@@ -29,4 +29,4 @@ return [<b>0</b>, <b>1</b>].
 <b>Input:</b> (2 -> 4 -> 3) + (5 -> 6 -> 4)<br />
 <b>Output:</b> 7 -> 0 -> 8</p></p>
 
-<a href="https://github.com/DaveRoox/LeetCode/blob/master/AddTwoNumbers.cpp">Solution</a><br>
+<a href="https://github.com/DaveRoox/LeetCode/blob/master/AddTwoNumbers.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
