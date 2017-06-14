@@ -59,7 +59,7 @@ void recFree(ListNode *ln) {
     if(ln->next)
         recFree(ln->next);
     
-    free(ln);
+    delete ln;
 }
     
 int main(int argc, const char * argv[]) {
