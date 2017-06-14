@@ -70,3 +70,34 @@ In this case, the 1st <code>1</code> in friend's guess is a bull, the 2nd or 3rd
 <p>You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.</p>
 
 <a href="https://github.com/DaveRoox/LeetCode/blob/master/BullsAndCows.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
+
+<b>************************************************************************</b>
+
+
+<h2><b>476. Number Complement</b></h2>
+<p><p>Given a positive integer, output its complement number. The complement strategy is to flip the bits of its binary representation.</p>
+
+<p><b>Note:</b><br>
+<ol>
+<li>The given integer is guaranteed to fit within the range of a 32-bit signed integer.</li>
+<li>You could assume no leading zero bit in the integer’s binary representation.</li>
+</ol>
+</p>
+
+<p><b>Example 1:</b><br />
+<pre>
+<b>Input:</b> 5
+<b>Output:</b> 2
+<b>Explanation:</b> The binary representation of 5 is 101 (no leading zero bits), and its complement is 010. So you need to output 2.
+</pre>
+</p>
+
+<p><b>Example 2:</b><br />
+<pre>
+<b>Input:</b> 1
+<b>Output:</b> 0
+<b>Explanation:</b> The binary representation of 1 is 1 (no leading zero bits), and its complement is 0. So you need to output 0.
+</pre>
+</p></p>
+
+<a href="">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
