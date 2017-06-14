@@ -23,26 +23,25 @@ class Solution {
           }
 	
     public:
-	ListNode* addTwoNumbers(ListNode *l1, ListNode *l2) {
+        ListNode* addTwoNumbers(ListNode *l1, ListNode *l2) {
+            ListNode *tmp1 = l1, *tmp2 = l2, *newList = 0;
+            short carry = 0;
 
-		ListNode *tmp1 = l1, *tmp2 = l2, *newList = 0;
-		short carry = 0;
+            while(tmp1 || tmp2) {
+                short val = (tmp1 ? tmp1->val : 0) + (tmp2 ? tmp2->val : 0) + carry;
+                addTo(newList, val);
+                carry = val >= 10;
+                if(tmp1)
+                    tmp1 = tmp1->next;
+                if(tmp2)
+                    tmp2 = tmp2->next;
+            }
 
-		while(tmp1 || tmp2) {
-			short val = (tmp1 ? tmp1->val : 0) + (tmp2 ? tmp2->val : 0) + carry;
-			addTo(newList, val);
-			carry = val >= 10;
-			if(tmp1)
-				tmp1 = tmp1->next;
-			if(tmp2)
-				tmp2 = tmp2->next;
-		}
+            if(carry)
+                addTo(newList, carry);
 
-		if(carry)
-			addTo(newList, carry);
-
-		return newList;
-	}
+            return newList;
+        }
 };
 
 void print(ListNode *ln) {
