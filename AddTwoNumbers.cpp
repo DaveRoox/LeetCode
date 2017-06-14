@@ -50,6 +50,17 @@ void print(ListNode *ln) {
         ln = ln->next;
     }
 }
+
+void recFree(ListNode *ln) {
+    
+    if(!ln)
+        return;
+    
+    if(ln->next)
+        recFree(ln->next);
+    
+    free(ln);
+}
     
 int main(int argc, const char * argv[]) {
     
@@ -66,6 +77,10 @@ int main(int argc, const char * argv[]) {
     cout << "(reversed)  \t"; print(l1); cout << endl;
     cout << "(reversed) +\t"; print(l2); cout << endl;
     cout << "(reversed) =\t"; print(x); cout << endl;
+    
+    recFree(l1);
+    recFree(l2);
+    recFree(x);
     
     return 0;
 }
