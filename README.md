@@ -34,6 +34,22 @@ return [<b>0</b>, <b>1</b>].
 <b>************************************************************************</b>
 
 
+<h2><b>3. Longest Substring Without Repeating Characters</b></h2>
+<p><p>Given a string, find the length of the <b>longest substring</b> without repeating characters.</p>
+
+<p><b>Examples:</b></p>
+
+<p>Given <code>"abcabcbb"</code>, the answer is <code>"abc"</code>, which the length is 3.</p>
+
+<p>Given <code>"bbbbb"</code>, the answer is <code>"b"</code>, with the length of 1.</p>
+
+<p>Given <code>"pwwkew"</code>, the answer is <code>"wke"</code>, with the length of 3. Note that the answer must be a <b>substring</b>, <code>"pwke"</code> is a <i>subsequence</i> and not a substring.</p></p>
+
+<b><a href="">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a></b><br>
+
+<b>************************************************************************</b>
+
+
 <h2><b>230. Kth Smallest Element in a BST</b></h2>
 <p><p>Given a binary search tree, write a function <code>kthSmallest</code> to find the <b>k</b>th smallest element in it.</p>
 
