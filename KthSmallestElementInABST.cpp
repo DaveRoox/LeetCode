@@ -14,7 +14,7 @@ class Solution {
     
     private:
         int findNumberOfNodes(TreeNode* tn) {
-            if(tn == 0)
+            if(!tn)
                 return 0;
             return 1 + findNumberOfNodes(tn->left) + findNumberOfNodes(tn->right);
         }
