@@ -12,14 +12,14 @@ class Solution {
 	
     private:
         void addTo(ListNode *&l, int value) {
-              ListNode *tmpList = l;
-              if(tmpList) {
-                  while(tmpList->next)
-                      tmpList = tmpList->next;
-                  tmpList->next = new ListNode(value % 10);
-              }
-              else
-                  l = new ListNode(value % 10);
+            ListNode *tmpList = l;
+            if(tmpList) {
+              while(tmpList->next)
+                  tmpList = tmpList->next;
+              tmpList->next = new ListNode(value % 10);
+            }
+            else
+              l = new ListNode(value % 10);
 	}
 	
     public:
@@ -45,11 +45,11 @@ class Solution {
 };
 
 void print(ListNode *ln) {
-	ListNode *tmp = ln;
-	while(tmp) {
+    ListNode *tmp = ln;
+    while(tmp) {
         cout << tmp->val;
         tmp = tmp->next;
-	}
+    }
 }
     
 int main(int argc, const char * argv[]) {
