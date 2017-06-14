@@ -13,9 +13,7 @@ class Solution {
 };
 
 int main(int argc, const char * argv[]) {
-    
     int input = 5;
-    
     cout << Solution().findComplement(input) << endl;
     return 0;
 }
