@@ -100,4 +100,4 @@ In this case, the 1st <code>1</code> in friend's guess is a bull, the 2nd or 3rd
 </pre>
 </p></p>
 
-<a href="">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
+<a href="https://github.com/DaveRoox/LeetCode/blob/master/NumberComplement.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
