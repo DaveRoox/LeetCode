@@ -47,8 +47,8 @@ class Solution {
 void print(ListNode *ln) {
 	ListNode *tmp = ln;
 	while(tmp) {
-		cout << tmp->val;
-		tmp = tmp->next;
+        cout << tmp->val;
+        tmp = tmp->next;
 	}
 }
     
