@@ -1,5 +1,5 @@
 # LeetCode
-My solutions to problems from LeetCode
+My solutions to problems from <b><a href="https://leetcode.com">LeetCode</a></b>.
 
 <h2><b>1. Two Sum</b></h2>
 <p><p>Given an array of integers, return <b>indices</b> of the two numbers such that they add up to a specific target.</p>
