@@ -63,9 +63,9 @@ int main(int argc, const char * argv[]) {
     }
     
     ListNode *x = Solution().addTwoNumbers(l1, l2);
-    cout << "(reversed) +\t"; print(l1); cout << endl;
-    cout << "(reversed) =\t"; print(l2); cout << endl;
-    cout << "(reversed)  \t"; print(x); cout << endl;
+    cout << "(reversed)  \t"; print(l1); cout << endl;
+    cout << "(reversed) +\t"; print(l2); cout << endl;
+    cout << "(reversed) =\t"; print(x); cout << endl;
     
     return 0;
 }
