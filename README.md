@@ -30,3 +30,14 @@ return [<b>0</b>, <b>1</b>].
 <b>Output:</b> 7 -> 0 -> 8</p></p>
 
 <a href="https://github.com/DaveRoox/LeetCode/blob/master/AddTwoNumbers.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
+
+<b>************************************************************************</b>
+
+
+<h2><b>230. Kth Smallest Element in a BST</b></h2>
+<p><p>Given a binary search tree, write a function <code>kthSmallest</code> to find the <b>k</b>th smallest element in it.</p>
+
+<p><b>Note:</b><br>
+You may assume k is always valid, 1 &le; k &le; BST's total elements.</p>
+
+<a href="https://github.com/DaveRoox/LeetCode/blob/master/AddTwoNumbers.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
