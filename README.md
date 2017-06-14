@@ -69,4 +69,4 @@ In this case, the 1st <code>1</code> in friend's guess is a bull, the 2nd or 3rd
 
 <p>You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.</p>
 
-<a href="">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
+<a href="https://github.com/DaveRoox/LeetCode/blob/master/BullsAndCows.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
