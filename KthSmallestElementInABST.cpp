@@ -52,6 +52,21 @@ void addTo(TreeNode *&tn, int value) {
         tn = new TreeNode(value);
 }
 
+void recFree(TreeNode *tn) {
+    
+    if(!tn)
+        return;
+    
+    if(tn->left)
+        recFree(tn->left);
+    
+    if(tn->right)
+        recFree(tn->right);
+    
+    delete tn;
+    
+}
+
 int main(int argc, const char * argv[]) {
     
     vector<int> v = { 8, 19, 2, -3, 18, 99, 12, 1, 0 };
@@ -63,5 +78,7 @@ int main(int argc, const char * argv[]) {
     
     cout << "Starting from: "; printInOrder(tn);
     cout << "\nThe kth smallest number for k = " << k << " is " << Solution().kthSmallest(tn, k) << endl;
+    
+    recFree(tn);
     return 0;
 }
