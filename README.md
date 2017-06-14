@@ -40,4 +40,4 @@ return [<b>0</b>, <b>1</b>].
 <p><b>Note:</b><br>
 You may assume k is always valid, 1 &le; k &le; BST's total elements.</p>
 
-<a href="https://github.com/DaveRoox/LeetCode/blob/master/AddTwoNumbers.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
+<a href="https://github.com/DaveRoox/LeetCode/blob/master/KthSmallestElementInABST">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a><br>
