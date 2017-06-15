@@ -24,7 +24,7 @@ class Solution {
                 }
                 if(b > i) {
                     result += s[p * k + i];
-                    if(p - b < i && i != 0 && i != (numRows - 1))
+                    if(p - b < i && i != (numRows - 1))
                         result += s[p * (k + 1) - i];
                 }
             }
