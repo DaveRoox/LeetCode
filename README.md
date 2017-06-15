@@ -46,6 +46,7 @@ return [<b>0</b>, <b>1</b>].
 <p>Given <code>"pwwkew"</code>, the answer is <code>"wke"</code>, with the length of 3. Note that the answer must be a <b>substring</b>, <code>"pwke"</code> is a <i>subsequence</i> and not a substring.</p></p>
 
 <b><a href="https://github.com/DaveRoox/LeetCode/blob/master/LongestSubstringWithoutRepeatingCharacters.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a></b><br>
+Elapsed time: <b>12 ms</b>. My runtime beats <b>98.47%</b> of cpp submissions.<br>
 
 <b>************************************************************************</b>
 
