@@ -30,6 +30,7 @@ return [<b>0</b>, <b>1</b>].
 <b>Output:</b> 7 -> 0 -> 8</p></p>
 
 <b><a href="https://github.com/DaveRoox/LeetCode/blob/master/AddTwoNumbers.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a></b><br>
+Elapsed time: <b>32 ms</b>. My runtime beats <b>95.62%</b> of cpp submissions.<br>
 
 <b>************************************************************************</b>
 
