@@ -52,6 +52,30 @@ Elapsed time: <b>12 ms</b>. My runtime beats <b>98.47%</b> of cpp submissions.<b
 <b>************************************************************************</b>
 
 
+<h2><b>6. ZigZag Conversion</b></h2>
+<p><p>The string <code>"PAYPALISHIRING"</code> is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+<pre>
+P   A   H   N
+A P L S I I G
+Y   I   R
+</pre>
+
+And then read line by line: <code>"PAHNAPLSIIGYIR"</code></p>
+
+<p>
+Write the code that will take a string and make this conversion given a number of rows:
+
+<pre>string convert(string text, int nRows);</pre>
+
+<code>convert("PAYPALISHIRING", 3)</code> should return <code>"PAHNAPLSIIGYIR"</code>.
+</p></p>
+
+<b><a href="https://github.com/DaveRoox/LeetCode/blob/master/ZigZagConversion.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a></b><br>
+Elapsed time: <b>15 ms</b> (underflow). My runtime beats <b>96.99%</b> of cpp submissions.<br>
+
+<b>************************************************************************</b>
+
+
 <h2><b>230. Kth Smallest Element in a BST</b></h2>
 <p><p>Given a binary search tree, write a function <code>kthSmallest</code> to find the <b>k</b>th smallest element in it.</p>
 
