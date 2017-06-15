@@ -27,17 +27,15 @@ class Solution {
             final.length = 1;
             tmp = final;
             
-            for(int k = 1; k < s.length(); k++) {
-                int idx = in(tmp, s, s[k]);
+            for(int idx, k = 1; k < s.length(); k++) {
+                idx = in(tmp, s, s[k]);
+                tmp.endIndex = k;
                 if(idx == -1) {
-                    tmp.endIndex = k;
-                    tmp.length++;
-                    if(final.length < tmp.length)
+                    if(final.length < ++tmp.length)
                         final = tmp;
                 }
                 else {
                     tmp.startIndex = idx + 1;
-                    tmp.endIndex = k;
                     tmp.length = tmp.endIndex - tmp.startIndex + 1;
                 }
             }
