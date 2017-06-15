@@ -118,3 +118,4 @@ In this case, the 1st <code>1</code> in friend's guess is a bull, the 2nd or 3rd
 </p></p>
 
 <b><a href="https://github.com/DaveRoox/LeetCode/blob/master/NumberComplement.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a></b><br>
+Elapsed time: <b>0 ms</b> (underflow). My runtime beats <b>99.25%</b> of cpp submissions.<br>
