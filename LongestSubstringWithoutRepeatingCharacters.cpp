@@ -4,18 +4,16 @@
 using namespace std;
 
 class Solution {
-    
     private:
         struct SubString {
             int startIndex, endIndex, length;
         };
     
         int in(const SubString &ss, const string &str, const char c) {
-            int toReturn = -1;
-            for(int i = ss.startIndex; i <= ss.endIndex; i++)
+            for(int i = ss.endIndex; i >= ss.startIndex; i--)
                 if(str[i] == c)
-                    toReturn = i;
-            return toReturn;
+                    return i;
+            return -1;
         }
     
     public:
