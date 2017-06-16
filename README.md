@@ -71,7 +71,31 @@ Write the code that will take a string and make this conversion given a number o
 </p></p>
 
 <b><a href="https://github.com/DaveRoox/LeetCode/blob/master/ZigZagConversion.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a></b><br>
-Elapsed time: <b>15 ms</b> (underflow). My runtime beats <b>96.99%</b> of cpp submissions.<br>
+Elapsed time: <b>15 ms</b>. My runtime beats <b>96.99%</b> of cpp submissions.<br>
+
+<b>************************************************************************</b>
+
+
+<h2><b>17. Letter Combinations of a Phone Number</b></h2>
+<p><p>Given a digit string, return all possible letter combinations that the number could represent.
+</p>
+
+<p>
+A mapping of digit to letters (just like on the telephone buttons) is given below.</p>
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad2.svg/200px-Telephone-keypad2.svg.png" /></p>
+
+<pre>
+<b>Input:</b>Digit string "23"
+<b>Output:</b> ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+</pre>
+
+<p>
+<b>Note:</b><br />
+Although the above answer is in lexicographical order, your answer could be in any order you want.
+</p></p>
+
+<b><a href="https://github.com/DaveRoox/LeetCode/blob/master/LetterCombinationsOfAPhoneNumber.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a></b><br>
+Elapsed time: <b>0 ms</b> (underflow). My runtime beats <b>69.58%</b> of cpp submissions.<br>
 
 <b>************************************************************************</b>
 
