@@ -5,14 +5,17 @@
 using namespace std;
 
 class Solution {
-  public:
-      vector<int> twoSum(vector<int>& nums, int target) {
-          forv(i, 0, nums.size() - 1)
-            forv(j, i + 1, nums.size())
-              if(nums[j] == target - nums[i])
-                  return vector<int>{i, j};
-          return vector<int>();
-      }
+    public:
+        vector<int> twoSum(const vector<int>& nums, int target) {
+            map<int, int> missings;
+            for(int i = 0; i < nums.size(); i++) {
+                auto &n = nums[i];
+                if(missings.find(n) != missings.end())
+                    return vector<int>{i, missings[n]};
+                missings[target - n] = i;
+            }
+            return vector<int>();
+        }
 };
 
 int main(int argc, const char * argv[]) {
