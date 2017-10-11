@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <unordered_map>
 #define forv(i, p, n) for(int i = (p); (i) < (n); (i)++)
 
 using namespace std;
@@ -7,11 +8,11 @@ using namespace std;
 class Solution {
     public:
         vector<int> twoSum(const vector<int>& nums, int target) {
-            map<int, int> missings;
+            unordered_map<int, int> missings;
             for(int i = 0; i < nums.size(); i++) {
                 auto &n = nums[i];
                 if(missings.find(n) != missings.end())
-                    return vector<int>{i, missings[n]};
+                    return vector<int>{missings[n], i};
                 missings[target - n] = i;
             }
             return vector<int>();
