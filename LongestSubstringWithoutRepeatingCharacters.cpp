@@ -4,17 +4,6 @@
 using namespace std;
 
 class Solution {
-    private:
-        struct SubString {
-            int startIndex, endIndex, length;
-        };
-    
-        int in(const SubString &ss, const string &str, const char c) {
-            for(int i = ss.endIndex; i >= ss.startIndex; i--)
-                if(str[i] == c)
-                    return i;
-            return -1;
-        }
     
     public:
         int lengthOfLongestSubstring(string s) {
@@ -22,24 +11,25 @@ class Solution {
             if(s == "")
                 return 0;
             
-            SubString final, tmp;
-            final.startIndex = final.endIndex = 0;
-            final.length = 1;
-            tmp = final;
+            int start = 0, length = 0, tmpLength;
+            unordered_map<char, int> m;
+            char c;
             
-            for(int idx, k = 1; k < s.length(); k++) {
-                idx = in(tmp, s, s[k]);
-                tmp.endIndex = k;
-                if(idx == -1) {
-                    if(final.length < ++tmp.length)
-                        final = tmp;
-                }
-                else {
-                    tmp.startIndex = idx + 1;
-                    tmp.length = tmp.endIndex - tmp.startIndex + 1;
-                }
+            for(int k = 0, size = s.length(); k < size; k++) {
+                
+                c = s[k];
+                
+                if(m.find(c) != m.end() && m[c] >= start)
+                    start = m[c] + 1;
+                
+                m[c] = k;
+                tmpLength = k - start + 1;
+                
+                if(tmpLength > length)
+                    length = tmpLength;
             }
-            return final.length;
+            
+            return length;
         }
 };
 
