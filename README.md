@@ -16,6 +16,7 @@ return [<b>0</b>, <b>1</b>].
 </p>
 
 <b><a href="https://github.com/DaveRoox/LeetCode/blob/master/TwoSum.cpp">&gt;&gt;&gt; Solution &lt;&lt;&lt;</a></b><br>
+Elapsed time: <b>6 ms</b>. My runtime beats <b>81.03%</b> of cpp submissions.<br>
 
 <b>************************************************************************</b>
 
